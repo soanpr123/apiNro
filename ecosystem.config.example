@@ -1,0 +1,9 @@
+module.exports = {
+  apps: [
+    {
+      name: 'cong3-api',
+      instances: '1',
+      script: './dist/server.js',
+    },
+  ],
+};
