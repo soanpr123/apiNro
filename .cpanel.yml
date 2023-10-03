@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nrogokum/api_nro/
+    - export DEPLOYPATH=/home/nrogokum/api.nrogoku.me/
     - /bin/cp -R * $DEPLOYPATH
     - /bin/cp -R .env $DEPLOYPATH
     - /bin/cp -R .sequelizerc $DEPLOYPATH
