@@ -1,1 +1,6 @@
-server.ts
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nrogokum/api_nro/
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R .env $DEPLOYPATH
