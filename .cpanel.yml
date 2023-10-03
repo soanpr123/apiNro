@@ -4,3 +4,6 @@ deployment:
     - export DEPLOYPATH=/home/nrogokum/api_nro/
     - /bin/cp -R * $DEPLOYPATH
     - /bin/cp -R .env $DEPLOYPATH
+    - /bin/cp -R .sequelizerc $DEPLOYPATH
+    - /bin/cp -R .eslintignore $DEPLOYPATH
+    - /bin/cp -R .eslintignore $DEPLOYPATH
