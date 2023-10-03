@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nrogokum/sever_api/
+    - export DEPLOYPATH=/home/nrogokum/backen
     - /bin/cp -R * $DEPLOYPATH
     - /bin/cp -R .env $DEPLOYPATH
     - /bin/cp -R .sequelizerc $DEPLOYPATH
